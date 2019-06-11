@@ -8,6 +8,7 @@
 
 #import "UUIDTool.h"
 
+#warning kUUIDKey尽量改成便于区分App的（有简友说如果一个手机上两个App都这样用相同的kUUIDKey可能会存在bug，我测试几次没发现，但是还是建议尽量要区分开）
 NSString * const kUUIDKey = @"com.myApp.uuid";
 
 @implementation UUIDTool
